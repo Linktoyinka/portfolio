@@ -10,6 +10,7 @@
 
 body {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
@@ -20,7 +21,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100%; */
     background-color: white;
     height: auto;
     padding: 10px 5%;
@@ -35,12 +35,15 @@ div h1 {
 }
 
 nav {
-    /* align-items: center; */
     align-content: center;
 }
 
 span {
     color: #FF6464;
+}
+
+.yes-tablet, .yes-mobile {
+    display: none;
 }
 
 li {
@@ -135,7 +138,6 @@ a button {
     padding: 5%;
     background-color: #FFFFFF;
     border-radius: 5px;
-    /* height: inherit; */
 }
 
 .blog-1, .blog-2, .blog-3 {
@@ -187,7 +189,7 @@ progress {
     border-radius: 10px;
     width: 20%;
     margin-right: 10px;
-    /* height: auto; */
+    height: 30%;
 }
 
 .work-1 {
@@ -269,4 +271,120 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.socials {
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 24px;
+    margin: 0 8px;
+}
+
+.fa-brands:hover {
+    color: #FF6464;
+}
+
+@media screen and (max-width: 900px) {
+    .no-tablet {
+        display: none;
+
+    }
+
+    .yes-tablet {
+        display: contents;
+    }
+
+    .right img {
+        border-radius: 25%;
+        width: 80%;
+    }
+
+    .left h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .yes-tablet, .no-tablet, .no-mobile {
+        display: none;
+    }
+
+    .yes-mobile {
+        display: contents;
+    }
+
+    .right img {
+        border-radius: 15%;
+        width: 90%;
+    }
+
+    .contact h1 {
+        font-size: 25px;
+        color: #00a8cc;
+    }
+    
+    .contact p {
+        font-size: 15px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 622px) {
+    
+    .hero, .about, .blog, .contact, .work-card {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .work-img {
+        border-radius: 5px;
+        width: 40%;
+    }
+
+    .con-left {
+        text-align: center;
+    }
+
+    .left, .right, .about-1, .skill, .blog-1, .blog-2, .blog-3 {
+        width: 100%;
+    }
+
+    .about-1, .skill, .blog-1, .blog-2, .blog-3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .left {
+        text-align: center;
+        order: 2;
+    }
+
+    .right img {
+        border-radius: 100%;
+        width: 50%;
+    }
+
+    .about {
+        /* min-width: 625px; */
+        /* flex-direction: column; */
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+    
+    .fa-brands {
+        font-size: 15px;
+        margin: 0 5px;
+    }
 }
