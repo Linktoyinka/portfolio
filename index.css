@@ -375,11 +375,7 @@ footer p {
         width: 50%;
     }
 
-    .about {
-        /* min-width: 625px; */
-        /* flex-direction: column; */
-    }
-
+    
     footer p {
         font-size: 13px;
     }
