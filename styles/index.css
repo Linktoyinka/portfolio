@@ -148,6 +148,11 @@ a button {
     margin-right: 10px;
 }
 
+.blog-pg {
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
 .skill, .blog-2 {
     margin-left: 10px;
 }
