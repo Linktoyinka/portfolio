@@ -99,7 +99,7 @@ img {
     border-radius: 100%;
 }
 
-button {
+button, .btn {
     border-radius: 2px;
     outline: none;
     padding: 2% 6%;
@@ -108,9 +108,17 @@ button {
     margin-top: 15px;
     cursor: pointer;
     border: 2px solid transparent;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 
-button:hover {
+.btn {
+    width: 30%;
+    padding: 2% 6%;
+    margin: 0;
+}
+
+button:hover, .btn:hover {
     background-color: transparent;
     border: 2px solid #FF6464;
     color: #FF6464;
@@ -221,10 +229,57 @@ progress {
     margin: 10px 0;
 }
 
+.contact-pg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 5%;
+}
+
+.contact-pg div, .contact-pg form {
+    width: 50%;
+    height: auto;
+    /* margin: 3%; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1% 0 0% 0;
+}
+
+.box {
+    margin-bottom: 3%;
+    border: 1px solid #00a8cc;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    height: 30px;
+}
+
+.box-2 {
+    height: 100px;
+}
+
+.contact-pg form {
+    padding: 5%;
+    border-radius: 15px%;
+    background-color: #EDF7FA;
+}
 
 
 .work-pg h2 {
     padding-bottom: 15px;
+}
+
+.work-pg-2 h2 {
+    text-align: center;
+    background-color: #EDF7FA;
+    padding: 2%;
 }
 
 
@@ -271,6 +326,8 @@ hr {
 .contact.con-left, .contact a {
     width: 40%;
 }
+
+
 
 .contact a {
     text-align: center;
