@@ -217,6 +217,12 @@ progress {
 }
 
 
+
+.work-pg h2 {
+    padding-bottom: 15px;
+}
+
+
 .year {
     font-weight: 700;
     font-size: 14px;
@@ -336,19 +342,42 @@ footer p {
 }
 
 @media screen and (max-width: 622px) {
+
+    .yes-tablet, .no-tablet, .no-mobile {
+        display: none;
+    }
+
+    .yes-mobile {
+        display: contents;
+    }
     
     .hero, .about, .blog, .contact, .work-card {
         flex-wrap: wrap;
         height: auto;
     }
 
+    .work-pg h2 {
+        font-size: 24px;
+    }
+
+    .contact.con-left, .contact a {
+        width: 100%;
+    }
+
+
     nav {
         display: none;
     }
 
+    .work-1 {
+        margin: 0px;
+        padding: 0px;
+        /* width: 100%; */
+    }
+
     .work-img {
         border-radius: 5px;
-        width: 40%;
+        width: 100%;
         margin-bottom: 7px;
     }
 
