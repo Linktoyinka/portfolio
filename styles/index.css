@@ -112,11 +112,7 @@ button, .btn {
     font-size: 16px;
 }
 
-.btn {
-    width: 30%;
-    padding: 2% 6%;
-    margin: 0;
-}
+
 
 button:hover, .btn:hover {
     background-color: transparent;
@@ -240,7 +236,17 @@ progress {
 .contact-pg div, .contact-pg form {
     width: 50%;
     height: auto;
-    /* margin: 3%; */
+    margin: 2%;
+}
+
+.contact-pg p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact-pg .pgp {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 form {
@@ -379,6 +385,10 @@ footer p {
         display: none;
     }
 
+    .work-pg-2 h2 {
+        font-size: 30px;
+    }
+
     .yes-mobile {
         display: contents;
     }
@@ -474,5 +484,29 @@ footer p {
     .fa-brands {
         font-size: 15px;
         margin: 0 5px;
+    }
+
+    .contact-pg {
+        flex-wrap: wrap;
+    }
+
+    .contact-pg div, .contact-pg form {
+        width: 80%;
+    }
+
+    .contact-pg div {
+        text-align: center;
+    }
+
+    .contact-pg p {
+        font-size: 25px;
+    }
+    
+    .contact-pg .pgp {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 18px;
     }
 }
