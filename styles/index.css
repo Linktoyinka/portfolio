@@ -129,8 +129,7 @@ a button {
     display: flex;
     justify-content: space-between;
     background-color: #EDF7FA;
-    align-items: center;
-    height: 100%;
+    align-items: stretch;
 }
 
 .blog-sec {
@@ -143,6 +142,7 @@ a button {
     background-color: #FFFFFF;
     border-radius: 5px;
 }
+
 
 .blog-1, .blog-2, .blog-3 {
     padding: 2%;
@@ -273,7 +273,7 @@ label {
 
 .contact-pg form {
     padding: 5%;
-    border-radius: 15px%;
+    border-radius: 15px;
     background-color: #EDF7FA;
 }
 
