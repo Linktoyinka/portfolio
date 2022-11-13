@@ -220,8 +220,8 @@ progress {
 
 .work-details {
     display: flex;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: flex-start;
+    width: 25%;
     margin: 10px 0;
 }
 
