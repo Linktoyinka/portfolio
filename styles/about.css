@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap'); */
 
 body {
     background-color: #EDF7FA;
@@ -12,9 +12,187 @@ main {
 .resume {
     background-color: white;
     padding: 3%;
+    border-radius: 10px;
 }
 
-/* p .res-about {
+
+h2, p, h4 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 500px;
-} */
+}
+
+.res-header {
+    display: flex;
+    align-items: center;
+}
+
+.res-left {
+    width: 30%;
+    text-align: center;
+}
+
+.res-right {
+    width: 70%;
+}
+
+.res-right h4 {
+    margin-bottom: 10px;
+}
+
+.res-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #313C4E;
+    padding: .5%;
+    margin: 1% 0;
+}
+
+.res-contact a, .res-contact i {
+    color: white;
+}
+
+.res-contact a:hover {
+    color: #FF6464;
+}
+
+.res-contact a {
+    margin: 0 4%;
+}
+
+.res-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.res-section-left, .res-section-right {
+    width: 47%;
+}
+
+.work-exp h2, .education h2 {
+    font-size: 20px;
+}
+
+.loc {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 13px;
+}
+
+.about-list {
+    list-style: circle;
+    list-style: disc;
+}
+
+.download {
+    text-align: center;
+}
+
+.technologies {
+    display: flex;
+}
+
+.technologies p {
+    padding: 1% 2%;
+    background-color: #313C4E;
+    border-radius: 7px;
+    color: white;
+    margin: 0 8px;
+}
+
+th {
+    text-align: left;
+}
+td {
+    padding: 0 25px 0 0;
+}
+
+.res-o-sk {
+    display: flex;
+    justify-content: space-between;
+}
+
+.res-hobbies {
+    display: flex;
+}
+
+.res-hobbies p {
+    padding: 1% 2%;
+    border-radius: 5px;
+    color: #313C4E;
+    border: 2px solid #313C4E;
+    margin: 0 5px;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 870px) {
+    .res-contact {
+        flex-wrap: wrap;
+    }
+
+    .res-contact a {
+        width: 40%;
+    }
+
+    .res-left img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 806px) {
+    .res-hobbies {
+        flex-wrap: wrap;
+    }  
+    
+    .res-o-sk {
+        flex-wrap: wrap;
+    }
+    
+    .res-hobbies p {
+        margin: 2px 5px;
+    }
+
+    .res-o-sk div {
+        width: 80%;
+        margin-top: 5px;
+    }
+
+    .res-left img {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .res-header {flex-wrap: wrap;
+    }
+
+    .res-left img {
+        width: 60%;
+    }
+
+    .res-left {
+        width: 100%;
+    }
+    
+    .res-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .res-section {
+        flex-wrap: wrap;
+    }
+
+    .res-section-left, .res-section-right {
+        width: 100%;
+    }
+
+    .res-section-right {
+        margin-top: 20px;
+    }
+}
