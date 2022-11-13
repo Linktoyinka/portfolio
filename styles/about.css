@@ -123,6 +123,11 @@ h3 {
     margin: 0 0 10px 0;
 }
 
+.resume {
+    box-shadow: 0 2px 28px 2px rgb(190, 176, 176);
+    border: 2px solid #00a8cc;
+}
+
 @media screen and (max-width: 870px) {
     .res-contact {
         flex-wrap: wrap;
