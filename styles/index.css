@@ -423,9 +423,9 @@ footer p {
         display: contents;
     }
     
-    .hero, .about, .blog, .contact, .work-card {
+    .hero, .about, .blog, .contact {
         flex-wrap: wrap;
-        height: auto;
+        /* height: auto; */
     }
 
     .work-pg h2 {
@@ -449,7 +449,7 @@ footer p {
 
     .work-img {
         border-radius: 5px;
-        width: 100%;
+        width: 30%;
         margin-bottom: 7px;
     }
 
