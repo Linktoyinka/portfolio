@@ -197,4 +197,8 @@ h3 {
     .res-contact a {
         width: 80%;
     }
+
+    main {
+        padding: 40px 3%;    
+    }
 }
