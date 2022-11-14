@@ -221,7 +221,7 @@ progress {
 .work-details {
     display: flex;
     justify-content: flex-start;
-    width: 25%;
+    width: 100%;
     margin: 10px 0;
 }
 
@@ -297,6 +297,10 @@ label {
     color: white;
     border-radius: 25px;
 
+}
+
+.work-details .year-1 {
+    width: 50px;
 }
 
 .tag {
@@ -415,6 +419,10 @@ footer p {
 
 @media screen and (max-width: 622px) {
 
+    section, footer {
+        padding: 20px 5%;    
+    }
+    
     .yes-tablet, .no-tablet, .no-mobile {
         display: none;
     }
