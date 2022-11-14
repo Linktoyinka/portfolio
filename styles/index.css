@@ -420,7 +420,7 @@ footer p {
 @media screen and (max-width: 622px) {
 
     section, footer {
-        padding: 20px 5%;    
+        padding: 20px 3%;    
     }
     
     .yes-tablet, .no-tablet, .no-mobile {
