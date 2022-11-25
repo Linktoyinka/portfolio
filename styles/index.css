@@ -39,7 +39,7 @@ header {
     direction: rtl;
     top: 0;
     right: 100%;
-    margin-top: 65px;
+    margin-top: 64px;
     transition: 0.4s;
 }
 
@@ -473,6 +473,11 @@ footer p {
 }
 
 @media screen and (max-width: 622px) {
+
+    header {
+        position: fixed;
+        width: 90%;
+    }
 
     section, footer {
         padding: 20px 3%;    
