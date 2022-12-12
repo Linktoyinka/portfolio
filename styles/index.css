@@ -475,7 +475,8 @@ footer p {
 @media screen and (max-width: 622px) {
 
     header {
-        position: fixed;
+        position: sticky;
+        top: 0;
         width: 90%;
     }
 
