@@ -324,6 +324,7 @@ label {
 
 .box-2 {
     height: 100px;
+    resize: none;
 }
 
 .contact-pg form {
@@ -391,8 +392,6 @@ hr {
 .contact.con-left, .contact a {
     width: 40%;
 }
-
-
 
 .contact a {
     text-align: center;
