@@ -255,19 +255,32 @@ progress {
 }
 .work-card {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
-.work-img {
+.work-img-main {
+    width: 22%;
+}
+
+/* .work-img {
     border-radius: 10px;
-    width: 20%;
+    width: 100%;
     margin-right: 10px;
     height: 30%;
+} */
+
+.work-img-main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .work-1 {
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    width: 76%;
 }
 
 .work-1 h2 {
