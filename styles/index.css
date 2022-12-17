@@ -284,16 +284,11 @@ progress {
 }
 
 .work-1 h2 {
-    font-size: 20px;
-    cursor: pointer;
+    font-size: 25px;
 }
 
 .blog h2 {
     font-size: 20px;
-}
-
-.work-1 h2:hover {
-    color: #FF6464;
 }
 
 .work-details {
@@ -304,6 +299,7 @@ progress {
 }
 
 .view-link {
+    margin-top: 2%;
     display: flex;
     gap: 10px;
 }
