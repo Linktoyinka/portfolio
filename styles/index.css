@@ -303,6 +303,35 @@ progress {
     margin: 10px 0;
 }
 
+.view-link {
+    display: flex;
+    gap: 10px;
+}
+
+.live {
+    padding: 5px 10px;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 20px;
+}
+
+.live:hover {
+    background-color: #FF6464;
+    color: white;
+}
+
+.repo {
+    padding: 5px 10px;
+    background-color: #142850;
+    color: white;
+    border-radius: 20px;
+}
+
+.repo:hover {
+    background-color: #142850;
+    color: white;
+}
+
 .contact-pg {
     display: flex;
     justify-content: space-around;
