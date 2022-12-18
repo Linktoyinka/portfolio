@@ -466,6 +466,10 @@ footer p {
     color: #FF6464;
 }
 
+.code {
+    color: white;
+}
+
 @media screen and (max-width: 900px) {
     .no-tablet {
         display: none;
